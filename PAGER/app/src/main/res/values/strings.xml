@@ -64,8 +64,8 @@
     <string name="administratorPage">Administrator Page</string>
     <string name="youWillStartToRecieve">You will start to receive pick up requests</string>
     <string name="currentRequest">Current Request</string>
-    <string name="pagerCar">Pager's Car: </string>
-    <string name="pagerNum">Pager's #</string>
+    <string name="pagerCar">Pager\'s Car: </string>
+    <string name="pagerNum">Pager\'s #</string>
     <string name="changePassword">Change Password</string>
     <string name="save">Save</string>
     <string name="changeName">Change Name</string>
