@@ -3,9 +3,10 @@
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
+    <string name="register">Register</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
@@ -13,4 +14,65 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="repeatPassword">Repeat Password</string>
+
+    <!-- My Strings  -->
+    <string name="regularMember">Regular Member</string>
+    <string name="admin">Admin</string>
+    <string name="drvier">Driver</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logOut">Log Out</string>
+    <string name="group">Group:</string>
+    <string name="groups">Groups</string>
+    <string name="welcomeToPager">Welcome To Pager</string>
+    <string name="pager">Pager</string>
+    <string name="yourGroups">Your Groups</string>
+    <string name="joinAGroup">Join A Group</string>
+    <string name="createANewGroup">Create A New Group</string>
+    <string name="menu">Menu</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="groupName">Group Name</string>
+    <string name="groupAddress">Group Address</string>
+    <string name="groupPassword">Group Password</string>
+    <string name="groupAdminLoginName">Group Admin Login Name</string>
+    <string name="groupAdminPassword">Group Admin Password</string>
+    <string name="requestPickUP">Request Pick Up</string>
+    <string name="pickUpLocation">Pick Up Location</string>
+    <string name="carColor">Car Color</string>
+    <string name="carModel">Car Model</string>
+    <string name="carMake">Car Make</string>
+    <string name="ETA">ETA</string>
+    <string name="myCurrentLocation">My Current Location</string>
+    <string name="howManyPassangers">How Many Passengers?</string>
+    <string name="sounds">Sounds</string>
+    <string name="notifications">Notifications</string>
+    <string name="signInAsGroupDrvier">Sign In As Group Driver</string>
+    <string name="signInAsGroupAdmin">Sing In As Group Admin</string>
+    <string name="repeatGroupAdminPasswrod">RepeatGroupAdminPassword</string>
+    <string name="continueAsRegularMember">Continue As Regular Member</string>
+    <string name="editPofile">Edit Profile</string>
+    <string name="adminName">Admin Name</string>
+    <string name="adminPassword">Admin Password</string>
+    <string name="deleteGroup">Delete Group</string>
+    <string name="location">Location</string>
+    <string name="administratorPage">Administrator Page</string>
+    <string name="youWillStartToRecieve">You will start to receive pick up requests</string>
+    <string name="currentRequest">Current Request</string>
+    <string name="pagerCar">Pager's Car: </string>
+    <string name="pagerNum">Pager's #</string>
+    <string name="changePassword">Change Password</string>
+    <string name="save">Save</string>
+    <string name="changeName">Change Name</string>
+    <string name="manageGroups">Manage Groups</string>
+    <string name="confirmLogout">Are you sure you want to Logout?</string>
+    <string name="confrimDeleteGroup">Are you sure you want to delete this group?</string>
+    <string name="currentPassword">Current Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="repeatNewPassword">Repeat New Password</string>
 </resources>
