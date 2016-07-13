@@ -1,13 +1,44 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".layout.StartUpFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/welcomeTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/welcomeToPager"
+        android:textColor="@android:color/white"
+        android:textSize="35sp" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/loginButtonStart"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="25dp"
+        android:background="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/action_sign_in_short"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/SignUpButtonStart"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/loginButtonStart"
+        android:layout_below="@+id/loginButtonStart"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/register"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

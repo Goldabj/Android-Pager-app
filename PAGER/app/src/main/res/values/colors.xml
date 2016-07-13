@@ -5,5 +5,6 @@
     <color name="colorPurplePrimary">#FF4B005E</color>
     <color name="colorRed">#FFF50C0C</color>
     <color name="colorLightGray">#FF696969</color>
-    <color name="colorFontLightGray">#FFE6E6E6</color>
+    <color name="colorFontLightGray">#e3e2e2</color>
+    <color name="edittexttheme_color">#9933cc</color>
 </resources>
