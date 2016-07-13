@@ -9,8 +9,12 @@
     </style>
 
     <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorDarkPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPurplePrimary</item>
+        <item name="colorAccent">@color/colorOutLineGold</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/colorPurplePrimary</item>
     </style>
 
     <style name="EditTextEditTextTheme" parent="android:Widget.EditText">
