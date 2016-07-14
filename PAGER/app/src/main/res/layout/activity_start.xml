@@ -43,16 +43,17 @@
         android:contentDescription="@string/action_settings"
         android:src="@drawable/street1editted" />
 
-    <include
-        layout="@layout/fragment_start_startscreen"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <!--<FrameLayout-->
-    <!--android:id="@+id/startFragmentContainer"-->
+    <!--<include-->
+    <!--layout="@layout/fragment_start_signup"-->
     <!--android:layout_width="match_parent"-->
     <!--android:layout_height="match_parent"-->
-    <!--android:layout_below="@+id/view" />-->
+    <!--android:layout_below="@+id/view"/>-->
+
+    <FrameLayout
+        android:id="@+id/startFragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view" />
 
 
 </RelativeLayout>

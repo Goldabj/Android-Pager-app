@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorDarkPrimary"
     android:orientation="vertical">
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/yourGroupsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/yourGroups"
+        android:textColor="@color/colorOutLineGold"
+        android:textSize="35sp" />
+
+    <ScrollView
+        android:id="@+id/groupsScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yourGroupsTextView"
+        android:layout_centerHorizontal="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/joinAGroupButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:background="@color/colorPurplePrimary"
+        android:text="@string/joinAGroup"
+        android:textColor="@color/colorFontLightGray"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/createAGroupButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@+id/joinAGroupButton"
+        android:background="@color/colorPurplePrimary"
+        android:text="@string/createANewGroup"
+        android:textColor="@color/colorFontLightGray"
+        android:textSize="20sp" />
+
+</RelativeLayout>

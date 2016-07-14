@@ -16,7 +16,7 @@
     </string>
     <string name="firstName">First Name</string>
     <string name="lastName">Last Name</string>
-    <string name="phoneNumber">Phone Number</string>
+    <string name="phoneNumber">Mobile Number</string>
     <string name="repeatPassword">Repeat Password</string>
 
     <!-- My Strings  -->
@@ -65,7 +65,7 @@
     <string name="youWillStartToRecieve">You will start to receive pick up requests</string>
     <string name="currentRequest">Current Request</string>
     <string name="pagerCar">Pager\'s Car: </string>
-    <string name="pagerNum">Pager\'s #</string>
+    <string name="pagerNum">Pager\'s #: </string>
     <string name="changePassword">Change Password</string>
     <string name="save">Save</string>
     <string name="changeName">Change Name</string>
